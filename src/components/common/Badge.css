@@ -1,0 +1,10 @@
+.Badge {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3em;
+  background-color: rgba(238,238,238,0.2);
+}
+
+.Badge:hover.Badge-link {
+  box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.5);
+}

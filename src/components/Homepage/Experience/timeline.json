@@ -1,0 +1,31 @@
+[{
+  "title": "Swinburne University",
+  "position": "Bachelor of Computer Science",
+  "time": {
+    "startYear": 2012,
+    "endYear": "present"
+  },
+  "icon": "fa-university",
+  "content": "### Key Study Areas\n- Object Oriented design\n- Data Structures\n- Digital graphics\n- Database design\n- Web technologies\n- Usability and Testing\n- Project managment\n\n### Currently Studying\n- Languages in software development (lexical analysis, JavaCC, prolog)\n- Software Development and Evolution (DevOps)\n- Software Development for Mobile Devices (Android Development)\n- Fundamentals of data Managment (sql, nosql, json, xml)\n"
+}, {
+  "title": "Birk Solutions / Spekit",
+  "position": "Junior web developer (Angular)",
+  "time": {
+    "startYear": 2014,
+    "startMonth": "January",
+    "endYear": 2015,
+    "endMonth": "January"
+  },
+  "icon": "fa-briefcase",
+  "content": "Analysis and implementation of solutions for a web application built in the angular framework to interact with a J2EE application with a restful api.\n### Accomplishments\n- Built replacement angular applications for a Java api that had front-end  components built in flash. helping to identify and test issues with the migration from an XML to JSON api (separate admin, sales and quoting angular web apps).\n- Using svg library Raphael and HTML5 built a visual quote creating tool that greatly increased speed and usability.\n- Built a visual tool for the uploading and manipulation of JSON-based  house plan data for use across Victoria in Porter Davis and Simonds showrooms."
+}, {
+  "title": "Investorist",
+  "position": "Front End Software Developer (ASP.net MVC 5)",
+  "time": {
+    "startYear": 2015,
+    "startMonth": "January",
+    "endMonth": "June"
+  },
+  "icon": "fa-briefcase",
+  "content": "Front end developer for Investorist.com, a business to business sales platform for off the plan property in Australia and the UK.\n### Accomplishments\n- Analyse user requirements and development complete development for enhancements within the asp.net MVC Web application framework.\n- Implement Google maps api integration for geolocation property information visualization.\n"
+}]

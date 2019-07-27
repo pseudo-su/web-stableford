@@ -1,0 +1,66 @@
+/* TimelineItem */
+.TimelineItem .item-wrapper {
+  position: relative;
+}
+
+.TimelineItem.left .item-wrapper {
+  margin-right: 49px;
+}
+
+.TimelineItem.right .item-wrapper {
+  margin-left: 49px;
+}
+
+@media only screen and (max-width : 992px) {
+  .TimelineItem.left .item-wrapper,
+  .TimelineItem.right .item-wrapper  {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/* TimelineItemBadges */
+.TimelineItemBadges {
+  margin: 0 27px;
+  top: 40%;
+}
+
+.TimelineItemBadges.left {
+  right: 100%;
+}
+
+.TimelineItemBadges.right {
+  left: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .TimelineItemBadges.right {
+    left: initial;
+    right: 100%;
+  }
+}
+
+/* TimelineItemBody */
+.TimelineItemBody .item-content {
+  box-shadow: none;
+  background: #e1e1e1;
+  border: 0px solid #777;
+}
+
+.TimelineItemBody.left .item-content {
+  border-right-width: 10px;
+}
+
+.TimelineItemBody.right .item-content {
+  border-left-width: 10px;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .TimelineItemBody.left .item-content {
+    border-right-width: 0;
+    border-left-width: 10px;
+  }
+  .TimelineItemBody.right .item-content {
+    border-left-width: 10px;
+  }
+}

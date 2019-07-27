@@ -1,0 +1,41 @@
+image: kkarczmarczyk/node-yarn:latest
+
+stages:
+  - install
+  # - test
+  - build
+  - deploy
+
+install:
+  stage: install 
+  script: yarn
+  before_script:
+  artifacts:
+    paths:
+    - node_modules
+
+# test:
+#   stage: test
+#   script: npm run test
+
+build:
+  stage: build
+  script: npm run build
+  artifacts:
+    paths:
+    - build
+
+# deploy:
+#   stage: deploy
+#   before_script:
+#   - apt-get update
+#   - apt-get -qq install python python-dev python-pip ca-certificates
+#   - pip install awscli
+#   script:
+#   - aws s3 sync build/ s3://$AWS_BUCKET
+#   artifacts:
+#     paths:
+#     - build
+#   only:
+#     - develop
+#     - master

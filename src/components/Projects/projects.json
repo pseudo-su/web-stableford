@@ -1,0 +1,240 @@
+[{
+    "title": "Spekit",
+    "color": "rgba(34,34,34,0.85)",
+    "heading": "Spekit / Birk Solutions",
+    "about": "**Spekit** is a sales platform used primarily by sales agents embedded within the showrooms of Building companies for **creating quotes of product packages**.\n\n Spekit enables the quick customisation of quotes for sets of products (such as Window furnishings) and enables full **job tracking** and managment functionality for the vendor to utilize from the showroom, all the way through to installation, payment and managing customer dissatisfaction.",
+    "badges": [{
+        "name": "Quoting and sales platform",
+        "icon": "fa fa-briefcase fa-3x"
+      },{
+        "name": "Job Tracking and Monitoring",
+        "icon": "fa fa-area-chart fa-3x"
+      }],
+    "images": {
+      "carousel": [{
+          "src":"spekit-images/complete.png",
+          "description":"##Quoting tool"
+        },
+        {
+          "src":"spekit-images/edit.png",
+          "description":"##Configure room dimentions"
+        },
+        {
+          "src":"spekit-images/product.png",
+          "description":"##Select product arrangements"
+        },
+        {
+          "src":"spekit-images/room.png",
+          "description":"##Furnish room"
+        },
+        {
+          "src":"spekit-images/job.png",
+          "description":"##Track job information"
+        },
+        {
+          "src":"spekit-images/summary.png",
+          "description":"##Quote summary information"
+      }]
+    },
+    "links": [{"name": "Birk Website", "url": "http://birk.com.au/"}],
+    "technology": {
+      "description": "Spekit is a web application built using enterprise java to implement a **resful backend** paired with a range of **angularjs webapps** to interact and manage information and data. The SVG library Raphael.js is used extensivly to edit and visualise House plan and other product information in a user friendly and accessible way.\n",
+      "badges": [{
+          "name": "Angular",
+          "icon": "devicons devicons-angular",
+          "description":"Javascript MVC/MVVM framework for interactive webapps"
+        },{
+          "name": "Java",
+          "icon": "devicons devicons-java",
+          "description":"Java RESTful web service for glassfish application server"
+        },
+        {
+          "name": "Html 5 / CSS 3",
+          "icon": "devicons devicons-html5",
+          "description":"Use of modern HTML5 features for best a great user experience"
+        },
+        {
+          "name": "Git",
+          "icon": "devicons devicons-git",
+          "description":"Version control through Git hosted on private Gitlab insance"
+        },{
+          "name": "Raphael.js (svg)",
+          "icon": "devicons devicons-raphael",
+          "description":"Complex house plan manipulation through svg graphic library"
+        },{
+          "name": "Jquery",
+          "icon": "devicons devicons-jquery",
+          "description":"Document traversal and manipulation library"
+        }]
+    },
+    "achievements": {
+      "description": "My primary accomplishment while working on Spekit was being able to **demonstrate the skills** I learned at university while **autonomously completing** further development of my technical skills as required. It was a very satisfying experience being able to work on software used to **solve real world problems** while being able to face some of the challenges with developing software for an industry that isn't technologically progressive.",
+      "badges": [{
+          "name": "Angular",
+          "icon": "devicons devicons-angular",
+          "description":"Expanding knowledge of **Javascript&nbsp;web&nbsp;frameworks**.\n\n **MVC** and **MVVM** patterns.\n\n custom and prebuilt **angular&nbsp;components** (directives, services, filters, providers)."
+        },{
+          "name": "Html 5 / CSS 3",
+          "icon": "devicons devicons-html5",
+          "description":"Enriched my knowledge of modern web tools and methods.\n\n**HTML5** components(geolocation, local storage, application cache).\n\n**CSS3** components(animation/transitions, media queries, bootstrap 3)."
+        },{
+          "name": "Git / Issue Tracking",
+          "icon": "devicons devicons-git",
+          "description":"Exposure to foundational skills with collaborative working using **Git** version control.\n\nExperience using project issue tracking and managment tools such as  **Gitlab** and **Asana**."
+        },{
+          "name": "Raphael.js (svg)",
+          "icon": "devicons devicons-raphael",
+          "description":"Expand my previous knowledge of Flash animations with **SVG creation, animation and manipulation**.\n\nUsing the Raphael.js api for **javascript SVG** create 2D interfaces for manipulation of complex house plan dimensional information."
+        }]
+    }
+}, {
+  "title": "Investorist",
+  "color": "#ee9626",
+  "heading": "Investorist",
+  "about": "Investorist is a business to business marketplace for off the plan property.\n\nFor property professionals looking for software to forge relationahips between property agents and clients.",
+  "badges": [{
+      "name": "Business to Business software",
+      "icon": "fa fa-briefcase fa-3x",
+      "description":""
+    },{
+      "name": "International Market",
+      "icon": "fa fa-globe fa-3x",
+      "description":""
+    },{
+      "name": "Connecting Property Professionals",
+      "icon": "fa fa-building fa-3x",
+      "description":""
+    },{
+      "name": "Multi lingual",
+      "icon": "fa fa-language fa-3x",
+      "description":""
+    }],
+  "images": {
+    "carousel": [{
+        "src":"investorist-images/search.jpg",
+        "description":"##Search off the plan property"
+      },
+      {
+        "src":"investorist-images/monitor.jpg",
+        "description":"##Track important stock"
+      },
+      {
+        "src":"investorist-images/mobile.jpg",
+        "description":"##Accessible from anywhere"
+      }]
+  },
+  "links": [{"name": "Investorist Website", "url": "http://investorist.com.au"}],
+  "technology": {
+    "description": "The Investorist platform is built upon the ASP.NET applciation framework MVC 6 and deployed onto Microsoft Azure's cloud infastructure",
+    "badges": [{
+        "name": "Microsoft ASP.NET",
+        "icon": "devicons devicons-dotnet",
+        "description":"ASP.NET MVC 6 web application "
+      },{
+        "name": "Visual Studio",
+        "icon": "devicons devicons-visualstudio",
+        "description":"Visual studio used for team managment and project tracking"
+      },{
+        "name": "Html 5 / CSS 3",
+        "icon": "devicons devicons-html5",
+        "description":"Use of modern HTML5 features for best a great user experience"
+      },{
+        "name": "Jquery",
+        "icon": "devicons devicons-jquery",
+        "description":"Document traversal and manipulation library"
+      }]
+  },
+  "achievements": {
+    "description": "While working on Investorist and learning about Microsoft's interpretation of the MVC paradigm I developed a broader understanding of how the MVC architecture is used in a server-client relationship. Previously I only had exposure to angular, a complete MVC/MVVM framework on the client.\n\nThe traditional server-client model helped me appreciate some of the benefits of having a heavy-client (angular or otherwise) appliciation. This spurred interest in other view techniques such as react.js,  knockout.js and more.",
+    "badges": [{
+        "name": "Microsoft ASP.NET",
+        "icon": "devicons devicons-dotnet",
+        "description":"Experience with various aspects of **ASP.NET** web applciation framework.\n\nMVC 6, Web API, Entity framework ORM wrapper, Razor view system"
+      },{
+        "name": "Visual Studio",
+        "icon": "devicons devicons-visualstudio",
+        "description":"Increase my exposure to the microsoft ecosystem of tools for application managment and deployment.\n\n**Team Foundation Server** source control\n\n**Azure** application cloud hosting "
+      },{
+        "name": "Jquery",
+        "icon": "devicons devicons-jquery",
+        "description":"Extensive use of jquery **ajax calls** to create interactive web applications inside of the .cshtml Razor views."
+      }]
+  }
+}, {
+  "title": "Reverseasy",
+  "color": "#4a1141",
+  "heading": "Reverseasy",
+  "about": "Currently in a staging environment, the new reverseasy website is for a ecommerce platform for a distributor of innovative automotive products as well as a market leader in sourcing and supplying specialised business tools to dealers in the Australian automotive industry.",
+  "badges": [{
+      "name": "Online Store",
+      "icon": "fa fa-shopping-cart fa-3x",
+      "description":""
+    },{
+      "name": "Automotive equipment Reseller",
+      "icon": "fa fa-car fa-3x",
+      "description":""
+    }],
+  "images": {
+    "carousel": [{
+        "src":"reverseasy-images/home.png",
+        "description":""
+      },
+      {
+        "src":"reverseasy-images/product.png",
+        "description":""
+      },
+      {
+        "src":"reverseasy-images/about.png",
+        "description":""
+      },
+      {
+        "src":"reverseasy-images/contact.png",
+        "description":""
+        }]
+  },
+  "links": [{"name": "Staging Website", "url": "http://reverseasy.herokuapp.com"}],
+  "technology": {
+    "description": "The Reverseasy website is built using the open source **Spree Commerce** content managment system built on top of the **Ruby on Rails** development framework. The Rails 4 framework has many structural and functional conventions that assist with developing clean websites. MVC, RESTful design, sass/scss preprocessor and an emphasis on modular design provide a strong base for the the Reverseasy website.",
+    "badges": [{
+        "name": "Ruby on Rails",
+        "icon": "devicons devicons-ruby_on_rails",
+        "description":"Web application framework written in Ruby"
+      },
+      {
+        "name": "Html 5 / CSS 3",
+        "icon": "devicons devicons-html5",
+        "description":"Use of modern HTML5 features for best a great user experience"
+      },
+      {
+        "name": "Git",
+        "icon": "devicons devicons-git",
+        "description":"Version control through Git hosted on private Gitlab insance"
+      },
+      {
+        "name": "Heroku",
+        "icon": "devicons devicons-heroku",
+        "description":"Platform as a Service for 12-factor web apps"
+      },
+      {
+        "name": "Spree Commerce",
+        "icon": "devicons devicons-opensource",
+        "description":"Open source ecommerce content managment system"
+      }]
+  },
+  "achievements": {
+    "description": "Working on the Reverseasy website was my first time using Ruby on rails for a software project. I found Ruby on rails a relativly straightforward framework to pick up considering my experience with MVC architecture in Angular and ASP.NET.\n\nHandling the configuration and implementation of the reverseasy project has allowed me to also expand my experience with environment managment and tools such as heroku, kubernetes and docker for portable software deployments.",
+    "badges": [{
+        "name": "Ruby on Rails",
+        "icon": "devicons devicons-ruby_on_rails",
+        "description":"Familiarisation with the **Ruby on Rails** framework\n\nRails asset pipeline, application configuration and Spree commerce integration."
+      },{
+        "name": "Heroku",
+        "icon": "devicons devicons-heroku",
+        "description":"Using **Heroku** application instance for staging environment."
+      },{
+        "name": "Hosting",
+        "icon": "devicons devicons-docker",
+        "description":"Exploring **docker**, using compose and Dockerfiles to build easily reproducible environments.\n\nExploring **Amazon Web Services** and **Google Container Engine** for use as production environments."
+      }]
+  }
+}]

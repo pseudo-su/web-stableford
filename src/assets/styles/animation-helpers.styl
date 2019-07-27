@@ -1,0 +1,28 @@
+//standard animation duration
+.animate-duration-xs {
+  animation-duration: 0.25s;
+}
+.animate-duration-sm {
+  animation-duration: 0.5s;
+}
+.animate-duration-md {
+  animation-duration: 0.75s;
+}
+.animate-duration-lg {
+  @include animation-duration(1s);
+}
+
+//css animation delays
+.animate-delay-xs {
+  animation-delay: 0.25s;
+}
+.animate-delay-sm {
+  animation-delay: 0.5s;
+}
+.animate-delay-md {
+  -webkit-animation-delay: 0.75s; /* Chrome, Safari, Opera */
+  animation-delay: 0.75s;
+}
+.animate-delay-lg {
+  animation-delay: 1s;
+}

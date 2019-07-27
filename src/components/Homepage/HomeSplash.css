@@ -1,0 +1,34 @@
+.HomeSplash {
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  background: url('../assets/images/splash-bg-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  padding-top: 70px;
+  height: 100%;
+}
+
+.HomeSplash .splash-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.HomeSplash .title-heading {
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  font-family: "Ridge", "Blanch", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.HomeSplash .title-subheading {
+  color: white;
+}

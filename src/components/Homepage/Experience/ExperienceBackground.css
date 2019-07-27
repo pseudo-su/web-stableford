@@ -1,0 +1,19 @@
+.ExperienceBackground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  min-height: 900px;
+}
+
+.ExperienceBackground svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  overflow: visible;
+}

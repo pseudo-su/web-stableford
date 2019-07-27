@@ -1,0 +1,52 @@
+.App {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  
+  body {
+    height: 100%;
+
+    #root {
+      height:100%;
+    }
+
+    p, li {
+      font-size: 1.2em;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: $sub-headings-custom-font;
+      letter-spacing: 0.02em;
+    }
+
+    nav a {
+      font-size:1.5em;
+      font-family:$sub-headings-custom-font;
+      letter-spacing:0.02em;
+    }
+
+
+
+    .content-wrapper {
+      background-color: #eee;
+
+      textarea{
+        max-width: 100%;
+      }
+
+      &.wrapper-index {
+        height: 100%;
+      }
+
+      .container-root {
+        background-color: #314C67;
+        height: 100%;
+      }
+      .container-main {
+        margin-top:$navbar-height;
+      }
+    }
+  }
+}

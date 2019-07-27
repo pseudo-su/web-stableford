@@ -1,39 +1,32 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "john-website-react",
+  "version": "0.2.0",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.118",
-    "gatsby-image": "^2.0.29",
-    "gatsby-plugin-manifest": "^2.0.17",
-    "gatsby-plugin-offline": "^2.0.23",
-    "gatsby-plugin-react-helmet": "^3.0.6",
-    "gatsby-plugin-sharp": "^2.0.20",
-    "gatsby-source-filesystem": "^2.0.20",
-    "gatsby-transformer-sharp": "^2.1.13",
-    "prop-types": "^15.7.1",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-helmet": "^5.2.0"
+    "animate.css": "^3.5.2",
+    "bootstrap-styl": "^5.0.8",
+    "devicons": "^1.8.0",
+    "font-awesome-stylus": "^4.7.1-alpha.1",
+    "nuka-carousel": "^4.2.1",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^16.3.2",
+    "react-markdown": "^2.5.0",
+    "react-router-dom": "^4.2.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "1.1.4",
+    "stylus": "^0.54.5"
+  },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "watch:css": "stylus -w -r src/ -o src/stylus.build.css",
+    "watch:src": "react-scripts start",
+    "start": "npm-run-all --parallel watch:css watch:src",
+    "build:css": "stylus -r src/ -o src/stylus.build.css",
+    "build:src": "react-scripts build",
+    "build": "npm-run-all build:css build:src",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

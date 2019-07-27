@@ -1,0 +1,11 @@
+.ProjectDetail .project-badge-column{
+  vertical-align: top;
+}
+
+.ProjectDetail .project-badge{
+  height: 82px;
+  width: 82px;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 20px;
+}
